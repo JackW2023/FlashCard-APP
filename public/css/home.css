@@ -1,0 +1,203 @@
+:root {
+    --aqua: #00ffff;
+    --tomato: #FC4549;
+    --sun: #FFBE00;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    /* border: solid 3px red; */
+}
+
+.homepage {
+    background-color: black;
+    color: white;
+}
+
+.nav-bar {
+    background-color: black;
+    color: white;
+ 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; 
+    justify-content: end; 
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-links li {
+    padding: 15px;
+}
+
+/* Welcome Home Page CSS Style */
+
+.welcome {
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: baseline;
+
+}
+
+.welcome h1 {
+    font-size: 150px;
+}
+
+.welcome h2 {
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.flash-buttons {
+    height: 150px;
+    gap: 200px;
+    font-weight: bold;
+}
+
+.flash-buttons button {
+    background-color: white;
+    color: black;
+    padding: 1.2rem 6rem;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.spread {
+    flex-grow: 1;
+    background-color: black;
+}
+
+.bulb {
+    margin: auto;
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+
+}
+
+
+/* Create Flashcards CSS Section */
+.createflash h1 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* HomePage Media Screen */
+@media screen and (max-width: 1150px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome h1 {
+        font-size: 100px;
+    }
+
+    .welcome h2 {
+        font-size: 25px;
+    }
+    
+    .flash-buttons {
+        gap: 100px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome h1 {
+        font-size: 100px;
+    }
+
+    .welcome h2 {
+        font-size: 25px;
+    }
+
+    .flash-buttons {
+        gap: 80px;
+    }
+    .flash-buttons button {
+        padding: 1rem 4rem;
+    }
+}
+
+
+@media screen and (max-width: 598px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome h1 {
+        font-size: 70px;
+    }
+
+    .welcome h2 {
+        font-size: 18px;
+    }
+
+    .flash-buttons {
+        gap: 60px;
+    }
+    .flash-buttons button {
+        padding: 0.75rem 0.75rem;
+
+    }
+    .nav-links {
+        font-size: 20px;
+    }
+    .bulb {
+        margin-top: -5px;
+    }
+
+}
+
+
+@media screen and (max-width: 390px) {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome h1 {
+        font-size: 70px;
+    }
+
+    .welcome h2 {
+        font-size: 18px;
+    }
+
+    .flash-buttons {
+        gap: 30px;
+    }
+    .flash-buttons button {
+        padding: 0.75rem 0.75rem;
+    }
+    .nav-links {
+        font-size: 18px;
+    }
+}
