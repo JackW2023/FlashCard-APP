@@ -1,7 +1,7 @@
 # Group Project 2: Flash Card App
 
 * [Github Repository](https://github.com/JackW2023/FlashCard-APP)
-* [Deployed Github](https://calm-island-50179-67f2dfd210f1.herokuapp.com/)
+* [Deployed Heroku App](https://calm-island-50179-67f2dfd210f1.herokuapp.com/)
 
 ## Project 2 Full Stack Application - Challenge Guideline
 
