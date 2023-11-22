@@ -75,6 +75,7 @@
     margin: 5px 0 20px 0;
     height: 45px;
     caret-color: var(--sun);
+    outline: none;
 }
 
 #signUpLink, #loginLink {

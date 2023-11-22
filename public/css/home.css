@@ -32,8 +32,7 @@ main {
     padding: 15px;
 }
 
-/* Welcome Home Page CSS Style */
-
+/* Welcome Home Page Section */
 .welcome {
     font-family: 'Permanent Marker', cursive;
     display: flex;
@@ -82,14 +81,109 @@ main {
 
 
 /* Create Flashcards CSS Section */
-.createflash h1 {
-    color: white;
+.createflash {
     font-family: 'Permanent Marker', cursive;
+    color: white;
+    
+}
+
+.createflash h1 {
     font-size: 80px;
     display: flex;
     justify-content: center;
 }
 
+.flash-name-input {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2rem;
+    gap: 30px;
+}
+
+.flash-name-input input {
+    caret-color: #FFBE00;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 0 10px;
+    outline: none;
+    color: black;
+    text-align: center;
+}
+
+.flashcards-input {
+    color: black;
+}
+
+.flashcards-input h2 {
+    color: white;
+    margin: auto;
+    font-size: 30px;
+}
+
+
+.question-input img{
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+.question-input input {
+    background-color: transparent;
+    border: none;
+    border: 1px solid red; 
+    outline: none; 
+    color: #333;
+    text-align: center;
+    width: 280px;
+    position: absolute;
+    margin-left: 200px;
+    height: auto;
+    z-index: 2;
+    
+}
+
+
+.answer-input img {
+    margin: auto;
+    width: 720px;
+    max-width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+.answer-input input {
+    background-color: transparent;
+    border: none;
+    border: 1px solid red; 
+    outline: none; 
+    color: #333;
+    text-align: center;
+    width: 80px;
+    position:absolute;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    /* height: auto; */
+    z-index: 2;
+    
+}
+
+.deleteButton h3 {
+    color: white;
+    margin-top: 50px;
+    margin-left: 13px;
+}
+
+.deleteButton img{
+    margin: auto;
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+    margin-top: -10px;
+    margin-right: 50px;
+}
 
 
 
