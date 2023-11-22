@@ -52,7 +52,7 @@ Due to time constraints, the app is not able to be finished in entirety; only pa
   * Log in next time
 * Create flash cards
   * Edit flash cards
-	* Save flash cards
+  * Save flash cards
   * Delete flash cards
 * Generate quizzes
 
