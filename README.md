@@ -61,18 +61,29 @@ Due to time constraints, the app is not able to be finished in entirety; only pa
 
 ![](public/images/pic1.png)
 ![](public/images/pic2.png)
+
 Login page for returning users. For first-timers, click “sign up here”(underlined in red) to create a new account.
+
 ![](public/images/pic3.png)
+
 Enters the home page. Go to the archive for saved flash cards or make a new deck.
+
 ![](public/images/pic4.png)
+
 The front and back of a titled flash card. The user can delete, add it to the collection or make another.
+
 ![](public/images/pic5.png)
 ![](public/images/pic6.png)
+
 Two different layouts of the card collection, either showing both sides or the fronts.
+
 ![](public/images/pic7.png)
+
 The flash card upon single click. Botton below for quiz generation.
+
 ![](public/images/pic8.png)
 ![](public/images/pic9.png)
+
 The quiz is started.
 
 ## Credits
