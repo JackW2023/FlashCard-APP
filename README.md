@@ -57,7 +57,7 @@ Due to time constraints, the app is not able to be finished in entirety; only pa
 * Generate quizzes
 
 
-## Pages Breakdown
+## Pages Breakdown(Mock-up)
 
 ![](public/images/pic1.png)
 ![](public/images/pic2.png)
