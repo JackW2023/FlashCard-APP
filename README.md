@@ -91,4 +91,4 @@ The quiz is started.
 * TAs
 * Members of The Team
 
-## Efforts never fail you, either a hard-working test-taker or a rookie developer team. Good luck with coding as success is awaiting you ahead!
+## Efforts never fail one, either a hard-working test-taker or a rookie developer team. Good luck with coding as success is awaiting you ahead!
